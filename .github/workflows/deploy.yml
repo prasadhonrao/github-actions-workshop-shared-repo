@@ -1,4 +1,4 @@
-name: ASP.NET Core WebApp Reusable Deploy Workflow
+name: Shared Workflow Azure Web App Deploy
 
 on:
   workflow_call:
