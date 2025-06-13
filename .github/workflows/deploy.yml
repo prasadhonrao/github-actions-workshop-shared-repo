@@ -17,6 +17,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Greeting
+        run: echo "Hello from Shared Workflow Azure Web App Deploy"
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
